@@ -6,9 +6,28 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EnX74epRMp3Drtdbs4Mc.VO404wWDgdw0n0T3WkC0+a.AI/gidvjsdelp7QEu/9RZNQvVeqyoiBBl0TsQvqOwGY=")
 cl.loginResult()
-ki = ki2 = ki3 = ki4 = ki5 = cl 
+
+ki = LINETCR.LINE()
+ki.login(token="En8I5rHNAp7gup1g6v41.7S41YiepIyUbpnsN+5O2eq.+aeRMbyGkw7tc8CLPcUdj/MrYf9l1xMTQ8PydHMWnII=")
+ki.loginResult()
+
+ki2 = LINETCR.LINE()
+ki2.login(token="En4bes9sKSpP05U6vEF9.J/eMhQwd2iuTfxuz19zSsq.rwJk4qaX+S+2q/ZnGc6qVwdLZfc6WHtOeZUim5LXopw=")
+ki2.loginResult()
+
+ki3 = LINETCR.LINE()
+ki3.login(token="EnZGHZU2FvLdPedDGkc5.vn6uYjWWW0JudBqT33gfDq.DON3mc3cs7i/zGZnO9OeXWOzsW4sGSUJVA45GirOdj4=")
+ki3.loginResult()
+
+ki4 = LINETCR.LINE()
+ki4.login(qr=True)
+ki4.loginResult()
+
+ki5 = LINETCR.LINE()
+ki5.login(qr=True)
+ki5.loginResult()
 
 print u"login success"
 reload(sys)
@@ -99,9 +118,9 @@ ki2mid = ki2.getProfile().mid
 ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
-Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"u9489706a45fcf78bea076c6b77f7067d"]
-admsa = "u9489706a45fcf78bea076c6b77f7067d"
-admin = "u9489706a45fcf78bea076c6b77f7067d"
+Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"u29b7d9118645af64909adba01fe4cb26"]
+admsa = "u29b7d9118645af64909adba01fe4cb26"
+admin = "u29b7d9118645af64909adba01fe4cb26"
 
 wait = {
     'contact':False,
