@@ -22,11 +22,11 @@ ki3.login(token="EnZGHZU2FvLdPedDGkc5.vn6uYjWWW0JudBqT33gfDq.DON3mc3cs7i/zGZnO9O
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(qr=True)
+ki4.login(token="EnWk0KvgfwbS1mMTS79b.bqOFJnJxN4T4QjA6tymdIW.cykCgdX2oWPzO+r35Sl3gvg1NwgR+VouTqnqjJLteps=")
 ki4.loginResult()
 
 ki5 = LINETCR.LINE()
-ki5.login(qr=True)
+ki5.login(token="EnrN11HRlXgdzamBVTa4.TzxaP0feA4Najun7NMgCza.MnyHRsNivXYkWgiJOpa2mbUfQmEQ1OXi0cxsac2WWF4=")
 ki5.loginResult()
 
 print u"login success"
